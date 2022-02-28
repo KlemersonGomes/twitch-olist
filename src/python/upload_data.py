@@ -13,7 +13,7 @@ port = '3306' #Porta
 str_connection = 'sqlite:///{path}'
 
 #Os endereços de nosso projeto e subpastas
-BASE_DIR = os.path.dirname( os.path.dirname( os.path.abspath(__file__) ) )
+BASE_DIR = os.path.dirname(os.path.dirname( os.path.dirname( os.path.abspath(__file__) ) ) )
 DATA_DIR = os.path.join( BASE_DIR, 'data' )
 
 '''#Forma 1
